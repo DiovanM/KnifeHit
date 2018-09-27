@@ -153,6 +153,7 @@ public class GameManager : MonoBehaviour {
     void Win()
     {
         ActivateWinCanvas();
+        Time.timeScale = 0;
     }
 
     void Lose()
@@ -238,6 +239,7 @@ public class GameManager : MonoBehaviour {
 
     public void Restart_Game()
     {
+        Time.timeScale = 1;
         level = -1;
         score = 0;
         DeactivateWinCanvas();

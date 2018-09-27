@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-D:/Knife Hit/Builds/Possiblefinalbuild/Knife Hit.exe
+D:/KnifeHitBuilds/Final Build/Knife Hit.exe
 SceneListBegin?
 Assets/Scenes/Game.unity
 SceneListEnd?
